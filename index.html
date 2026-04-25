@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- ===== METADATA ===== -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Patas da Ilha Pet Shop - Landing page responsiva com serviços, diferenciais e formulário de contato." />
+    <title>Patas da Ilha - Pet Shop</title>
+
+    <!-- ===== FONTS E ESTILOS ===== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="prefetch"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- ===== FAVICON ===== -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐾</text></svg>" />
+</head>
+
+<body>
+    <!-- ===== ACESSIBILIDADE ===== -->
+    <a class="skip-link" href="#conteudo-principal">Pular para o conteúdo</a>
+
+    <!-- ===== HEADER ===== -->
+    <header class="site-header">
+        <div class="container header-wrapper">
+            <!-- Logo e marca -->
+            <a href="#topo" class="logo" aria-label="Página inicial Patas da Ilha Pet Shop">
+                <span class="logo-icon">🐾</span>
+                <span class="logo-text">
+                    <strong>Patas da Ilha</strong>
+                    <small>Pet Shop</small>
+                </span>
+            </a>
+
+            <!-- Botão hamburguer mobile -->
+            <button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menu" aria-expanded="false"
+                aria-controls="mainNav">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Navegação principal -->
+            <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
+                <a href="#sobre">Sobre</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#diferenciais">Diferenciais</a>
+                <a href="#contato">Contato</a>
+                <a href="#contato" class="btn btn-primary nav-cta">Agendar atendimento</a>
+            </nav>
+
+            <!-- CTA para desktop -->
+            <a href="#contato" class="btn btn-primary desktop-cta">Agendar atendimento</a>
+        </div>
+    </header>
+
+    <!-- ===== CONTEÚDO PRINCIPAL ===== -->
+    <main id="conteudo-principal">
+
+        <!-- ===== HERO SECTION ===== -->
+        <section class="hero" id="topo">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <span class="eyebrow">Cuidado completo para cães e gatos</span>
+
+                    <h1>
+                        Cuidado completo para o seu pet, com carinho, confiança e bem-estar.
+                    </h1>
+
+                    <p class="hero-description">
+                        No Patas da Ilha, seu melhor amigo recebe atendimento acolhedor,
+                        serviços de qualidade e toda a atenção que ele merece.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#contato" class="btn btn-primary">Falar com a equipe</a>
+                        <a href="#servicos" class="btn btn-secondary">Conhecer serviços</a>
+                    </div>
+
+                    <ul class="hero-highlights" aria-label="Destaques principais">
+                        <li>✔ Atendimento humanizado</li>
+                        <li>✔ Ambiente seguro e higienizado</li>
+                        <li>✔ Equipe experiente</li>
+                    </ul>
+                </div>
+
+                <div class="hero-visual">
+                    <img src="assets/img/hero-pet.jpg"
+                        alt="Cachorro sorrindo em destaque na landing page do Patas da Ilha" />
+
+                    <div class="floating-card">
+                        <strong>+1.200 pets atendidos</strong>
+                        <span>Carinho, segurança e atenção em cada visita.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SOBRE ===== -->
+        <section id="sobre" class="section about">
+            <div class="container about-grid">
+                <div class="section-intro">
+                    <span class="section-tag">Sobre nós</span>
+                    <h2>Um pet shop criado para cuidar com amor e responsabilidade.</h2>
+                    <p>
+                        O Patas da Ilha Pet Shop nasceu com o propósito de oferecer
+                        praticidade para os tutores e uma experiência acolhedora para os pets.
+                        Reunimos cuidado, carinho e serviços essenciais em um só lugar.
+                    </p>
+                </div>
+
+                <div class="stats-grid" role="group" aria-label="Indicadores do pet shop">
+                    <article class="stat-card">
+                        <strong>1.200+</strong>
+                        <span>pets atendidos</span>
+                    </article>
+
+                    <article class="stat-card">
+                        <strong>5 anos</strong>
+                        <span>de experiência</span>
+                    </article>
+
+                    <article class="stat-card">
+                        <strong>98%</strong>
+                        <span>de satisfação</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SERVIÇOS ===== -->
+        <section id="servicos" class="section services">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-tag">Serviços</span>
+                    <h2>Tudo o que seu pet precisa em um só lugar.</h2>
+                    <p>
+                        Oferecemos serviços essenciais para o bem-estar, a saúde e o conforto
+                        do seu melhor amigo.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+                    <article class="service-card">
+                        <div class="service-icon">🛁</div>
+                        <h3>Banho e tosa</h3>
+                        <p>Higiene, cuidado e conforto para manter seu pet limpo e feliz.</p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">🩺</div>
+                        <h3>Consultas veterinárias</h3>
+                        <p>Acompanhamento profissional para cuidar da saúde do seu pet.</p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">💉</div>
+                        <h3>Vacinação</h3>
+                        <p>Proteção e prevenção com orientação segura e responsável.</p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">🏨</div>
+                        <h3>Hotelzinho</h3>
+                        <p>Conforto e segurança para quando seu pet precisar ficar hospedado.</p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">🦴</div>
+                        <h3>Produtos pet</h3>
+                        <p>Rações, brinquedos, acessórios e itens selecionados para o dia a dia.</p>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">💙</div>
+                        <h3>Atendimento personalizado</h3>
+                        <p>Cuidado especial considerando o perfil e as necessidades de cada pet.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== DIFERENCIAIS ===== -->
+        <section id="diferenciais" class="section differentials">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-tag">Diferenciais</span>
+                    <h2>Por que escolher o Patas da Ilha?</h2>
+                    <p>
+                        Mais do que serviços, entregamos confiança, acolhimento e tranquilidade.
+                    </p>
+                </div>
+
+                <div class="differentials-grid">
+                    <article class="differential-card">
+                        <img src="assets/img/equipe-especializada.jpg"
+                            alt="Equipe especializada atendendo pets no Patas da Ilha" />
+                        <div class="differential-content">
+                            <h3>Equipe especializada</h3>
+                            <p>
+                                Profissionais preparados para atender com atenção e responsabilidade.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="differential-card">
+                        <img src="assets/img/ambiente-seguro.jpg"
+                            alt="Ambiente seguro, limpo e organizado do Patas da Ilha" />
+                        <div class="differential-content">
+                            <h3>Ambiente seguro</h3>
+                            <p>
+                                Espaço limpo, organizado e pensado para o conforto dos animais.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="differential-card">
+                        <img src="assets/img/agendamento-rapido.jpg"
+                            alt="Tutora realizando agendamento rápido de atendimento para pet" />
+                        <div class="differential-content">
+                            <h3>Agendamento rápido</h3>
+                            <p>
+                                Facilidade para marcar serviços e receber retorno da equipe.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTATO ===== -->
+        <section id="contato" class="section contact">
+            <div class="container contact-grid">
+                <div class="contact-info">
+                    <span class="section-tag">Contato</span>
+                    <h2>Agende o cuidado do seu pet.</h2>
+                    <p>
+                        Preencha o formulário abaixo e nossa equipe entrará em contato
+                        para ajudar você a escolher o melhor atendimento.
+                    </p>
+
+                    <ul class="contact-list" aria-label="Informações de contato">
+                        <li>📍 Rua das Patinhas, 123 — Florianópolis/SC</li>
+                        <li>📞 (48) 99999-9999</li>
+                        <li>📷 @patasdailha</li>
+                    </ul>
+                </div>
+
+                <form class="contact-form" id="contactForm" novalidate>
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" placeholder="Digite seu nome" required
+                            autocomplete="name" />
+                        <small class="error-message"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="voce@email.com" required
+                            autocomplete="email" />
+                        <small class="error-message"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Telefone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="(48) 99999-9999" required
+                            autocomplete="tel" />
+                        <small class="error-message"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Conte como podemos ajudar" required
+                            autocomplete="on"></textarea>
+                        <small class="error-message"></small>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-full">
+                        Enviar mensagem
+                    </button>
+
+                    <p class="form-feedback" id="formFeedback" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2026 Patas da Ilha Pet Shop. Todos os direitos reservados.</p>
+            <p>by Fabiano Costa® - Product Designer &amp; Desenvolvedor Web.</p>
+        </div>
+    </footer>
+
+    <!-- ===== SCRIPTS ===== -->
+    <script src="script.js"></script>
+</body>
+
+</html>
