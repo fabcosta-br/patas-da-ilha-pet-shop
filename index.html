@@ -19,8 +19,7 @@
     <link rel="stylesheet" href="style.css" />
 
     <!-- ===== FAVICON ===== -->
-    <link rel="icon"
-        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐾</text></svg>" />
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
 </head>
 
 <body>
@@ -32,7 +31,9 @@
         <div class="container header-wrapper">
             <!-- Logo e marca -->
             <a href="#topo" class="logo" aria-label="Página inicial Patas da Ilha Pet Shop">
-                <span class="logo-icon">🐾</span>
+                <span class="logo-icon" aria-hidden="true">
+                    <img src="assets/icons/paw.svg" alt="" aria-hidden="true" />
+                </span>
                 <span class="logo-text">
                     <strong>Patas da Ilha</strong>
                     <small>Pet Shop</small>
@@ -149,37 +150,49 @@
 
                 <div class="services-grid">
                     <article class="service-card">
-                        <div class="service-icon">🛁</div>
+                        <div class="service-icon">
+                            <img src="assets/icons/bath.svg" alt="" aria-hidden="true" />
+                        </div>
                         <h3>Banho e tosa</h3>
                         <p>Higiene, cuidado e conforto para manter seu pet limpo e feliz.</p>
                     </article>
 
                     <article class="service-card">
-                        <div class="service-icon">🩺</div>
+                        <div class="service-icon">
+                            <img src="assets/icons/stethoscope.svg" alt="" aria-hidden="true" />
+                        </div>
                         <h3>Consultas veterinárias</h3>
                         <p>Acompanhamento profissional para cuidar da saúde do seu pet.</p>
                     </article>
 
                     <article class="service-card">
-                        <div class="service-icon">💉</div>
+                        <div class="service-icon">
+                            <img src="assets/icons/vaccine.svg" alt="" aria-hidden="true" />
+                        </div>
                         <h3>Vacinação</h3>
                         <p>Proteção e prevenção com orientação segura e responsável.</p>
                     </article>
 
                     <article class="service-card">
-                        <div class="service-icon">🏨</div>
+                        <div class="service-icon">
+                            <img src="assets/icons/building-store.svg" alt="" aria-hidden="true" />
+                        </div>
                         <h3>Hotelzinho</h3>
                         <p>Conforto e segurança para quando seu pet precisar ficar hospedado.</p>
                     </article>
 
                     <article class="service-card">
-                        <div class="service-icon">🦴</div>
+                        <div class="service-icon">
+                            <img src="assets/icons/shopping-bag.svg" alt="" aria-hidden="true" />
+                        </div>
                         <h3>Produtos pet</h3>
                         <p>Rações, brinquedos, acessórios e itens selecionados para o dia a dia.</p>
                     </article>
 
                     <article class="service-card">
-                        <div class="service-icon">💙</div>
+                        <div class="service-icon">
+                            <img src="assets/icons/heart.svg" alt="" aria-hidden="true" />
+                        </div>
                         <h3>Atendimento personalizado</h3>
                         <p>Cuidado especial considerando o perfil e as necessidades de cada pet.</p>
                     </article>
@@ -203,7 +216,10 @@
                         <img src="assets/img/equipe-especializada.jpg"
                             alt="Equipe especializada atendendo pets no Patas da Ilha" />
                         <div class="differential-content">
-                            <h3>Equipe especializada</h3>
+                            <h3>
+                                <img src="assets/icons/report-medical.svg" alt="" aria-hidden="true" />
+                                Equipe especializada
+                            </h3>
                             <p>
                                 Profissionais preparados para atender com atenção e responsabilidade.
                             </p>
@@ -214,7 +230,10 @@
                         <img src="assets/img/ambiente-seguro.jpg"
                             alt="Ambiente seguro, limpo e organizado do Patas da Ilha" />
                         <div class="differential-content">
-                            <h3>Ambiente seguro</h3>
+                            <h3>
+                                <img src="assets/icons/bone.svg" alt="" aria-hidden="true" />
+                                Ambiente seguro
+                            </h3>
                             <p>
                                 Espaço limpo, organizado e pensado para o conforto dos animais.
                             </p>
@@ -225,7 +244,10 @@
                         <img src="assets/img/agendamento-rapido.jpg"
                             alt="Tutora realizando agendamento rápido de atendimento para pet" />
                         <div class="differential-content">
-                            <h3>Agendamento rápido</h3>
+                            <h3>
+                                <img src="assets/icons/calendar.svg" alt="" aria-hidden="true" />
+                                Agendamento rápido
+                            </h3>
                             <p>
                                 Facilidade para marcar serviços e receber retorno da equipe.
                             </p>
@@ -247,36 +269,50 @@
                     </p>
 
                     <ul class="contact-list" aria-label="Informações de contato">
-                        <li>📍 Rua das Patinhas, 123 — Florianópolis/SC</li>
-                        <li>📞 (48) 99999-9999</li>
-                        <li>📷 @patasdailha</li>
+                        <li>
+                            <img class="contact-icon" src="assets/icons/map-pin.svg" alt="" aria-hidden="true" />
+                            Rua das Patinhas, 123 — Florianópolis/SC
+                        </li>
+                        <li>
+                            <img class="contact-icon" src="assets/icons/brand-whatsapp.svg" alt="" aria-hidden="true" />
+                            (48) 99999-9999
+                        </li>
+                        <li>
+                            <img class="contact-icon" src="assets/icons/brand-instagram.svg" alt=""
+                                aria-hidden="true" />
+                            @patasdailha
+                        </li>
                     </ul>
                 </div>
 
                 <form class="contact-form" id="contactForm" novalidate>
                     <div class="form-group">
-                        <label for="name">Nome</label>
+                        <label for="name"><img class="form-label-icon" src="assets/icons/user.svg" alt=""
+                                aria-hidden="true" />Nome</label>
                         <input type="text" id="name" name="name" placeholder="Digite seu nome" required
                             autocomplete="name" />
                         <small class="error-message"></small>
                     </div>
 
                     <div class="form-group">
-                        <label for="email">E-mail</label>
+                        <label for="email"><img class="form-label-icon" src="assets/icons/mail.svg" alt=""
+                                aria-hidden="true" />E-mail</label>
                         <input type="email" id="email" name="email" placeholder="voce@email.com" required
                             autocomplete="email" />
                         <small class="error-message"></small>
                     </div>
 
                     <div class="form-group">
-                        <label for="phone">Telefone</label>
+                        <label for="phone"><img class="form-label-icon" src="assets/icons/phone-call.svg" alt=""
+                                aria-hidden="true" />Telefone</label>
                         <input type="tel" id="phone" name="phone" placeholder="(48) 99999-9999" required
                             autocomplete="tel" />
                         <small class="error-message"></small>
                     </div>
 
                     <div class="form-group">
-                        <label for="message">Mensagem</label>
+                        <label for="message"><img class="form-label-icon" src="assets/icons/message.svg" alt=""
+                                aria-hidden="true" />Mensagem</label>
                         <textarea id="message" name="message" rows="5" placeholder="Conte como podemos ajudar" required
                             autocomplete="on"></textarea>
                         <small class="error-message"></small>
