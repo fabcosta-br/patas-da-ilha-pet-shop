@@ -5,12 +5,12 @@
 
 ## 📋 Sumário Executivo
 
-**Patas da Ilha - Pet Shop** é uma landing page responsiva desenvolvida como Projeto Extra da etapa **Primeiros Passos** do **Programa Carreira Tech**, iniciativa vinculada à **SCTEC**, **FEPESE** e **ACATE**, na trilha de **Desenvolvimento Front-End e Back-End**.
+**Patas da Ilha - Pet Shop** é uma landing page responsiva desenvolvida como Projeto Extra da etapa **Primeiros Passos** do **Programa Carreira Tech**, iniciativa vinculada à **SCTEC**, **FAPESC** e **ACATE**, na trilha de **Desenvolvimento Front-End e Back-End**.
 
 O projeto foi elaborado com o objetivo de consolidar conhecimentos introdutórios em **HTML**, **CSS**, **JavaScript** e organização de documentação técnica. A proposta consistiu na criação de uma página para um pet shop fictício, estruturada como um cartão de visitas digital da marca, com apresentação de serviços, diferenciais e pontos de contato.
 
 **Autor:** Fabiano Rodrigo Costa  
-**Programa:** Carreira Tech - SCTEC, FEPESE e ACATE  
+**Programa:** Carreira Tech - SCTEC, FAPESC, SENAI e ACATE  
 **Trilha:** Desenvolvimento Front-End e Back-End  
 **Natureza:** Projeto acadêmico de prática orientada  
 **Versão:** 1.5 final  
