@@ -629,8 +629,8 @@ button {
   box-shadow: 0 0 0 4px rgba(217, 74, 57, 0.12) !important;
 }
 
-/* ===== FOOTER ===== */
-/* Rodapé do site com informações de copyright e links */
+/* ===== FOOTER AND VARIOUS ===== */
+/* Rodapé do site com informações de copyright, links e diversos outras aplicações na landing page */
 .site-footer {
   padding: 28px 0;
   background: #233746;
