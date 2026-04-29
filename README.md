@@ -41,7 +41,7 @@ O desafio também solicita que a documentação contenha:
 
 | Ponto solicitado no desafio | Aplicação no projeto |
 |---|---|
-| **Identidade visual e tipografia** | Criação de Marca exclusiva para a landing page, com logotipo, iconografia, fotos, padronização de espaçamentos e grid, uso de família tipográfica Poppins (Google Fonts), paleta de cores primárias, secundárias e de suporte, fundo claro para legibilidade e clareza (Light Mode). Criação de linguagem própria e tom de voz acolhedora para a marca "Patas da Ilha - Pet Shop". Definição de Público-Alvo e Proto-personas para uso de CTA com foco local (Grande Florianópolis e Região. |
+| **Identidade visual e tipografia** | Criação de Marca exclusiva para a landing page, com logotipo, iconografia, fotos, padronização de espaçamentos e grid, uso de família tipográfica Poppins (Google Fonts), paleta de cores primárias, secundárias e de suporte, fundo claro para legibilidade e clareza (Light Mode). Criação de linguagem própria e tom de voz acolhedora para a marca "Patas da Ilha - Pet Shop". Definição de Público-Alvo e Proto-personas para uso em CTA com foco local (Grande Florianópolis e Região). |
 | **Seção de destaque** | Header fixo, hero com imagem principal, card sobreposto e chamadas para ação voltadas ao contato. |
 | **Seção sobre** | Bloco institucional com texto de apresentação e indicadores numéricos em layout com Grid. |
 | **Seção de serviços** | Seis cards com ícones SVG locais, descrição breve e estrutura responsiva. |
